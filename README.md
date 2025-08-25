@@ -1,4 +1,4 @@
-# Guia Completo: Anki + FSRS para Estudante de Universitário
+# Guia Completo: Anki + FSRS para Estudante Universitário
 
 > **Para iniciantes absolutos** 🎯  
 > Sistema de revisão inteligente que evolui com você: Iniciante → Intermediário → Avançado
