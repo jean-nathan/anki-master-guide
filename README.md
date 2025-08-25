@@ -1,116 +1,87 @@
 # 🎯 Anki Master Guide
+*O caminho mais direto para dominar o Anki*
 
-*O guia definitivo para dominar o Anki e turbinar seus estudos*
+## 📖 O que é este guia?
 
-![Anki](https://img.shields.io/badge/Anki-0078D4?style=flat-square&logo=anki&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
-![Licença](https://img.shields.io/badge/Licença-MIT-green?style=flat-square)
+Um sistema progressivo e prático para dominar o Anki Desktop em português, integrado com Claude para máxima eficiência no aprendizado.
 
-## 🚀 Início Rápido
+## 🎯 Filosofia
 
-**Novo no Anki?** Comece aqui em 15 minutos:
+### Por que este guia é diferente?
+- **Enxuto**: Sem informações desnecessárias
+- **Progressivo**: 3 níveis claros de evolução
+- **Prático**: Configurações exatas e testadas
+- **Integrado**: Use Claude para criar cards e analisar progresso
 
-1. 📥 [Instalação](docs/01-inicio-rapido/instalacao.md)
-2. ⚙️ [Primeira Configuração](docs/01-inicio-rapido/primeira-config.md)
-3. 🎴 [Seus Primeiros Cards](docs/03-criacao-cards/exemplos.md)
+## 📊 Jornada de 3 Níveis
 
-## 📊 Escolha Seu Nível
+### 🟢 [Nível 1: Iniciante](./nivel-1-iniciante/) (0-2 meses)
+**Meta**: Criar o hábito diário
+- Configuração básica que funciona
+- Como criar bons cards com Claude
+- Objetivo: 30 cards/dia consistente
 
-### 🟢 **Iniciante** (0-1 mês)
-*"Nunca usei Anki ou uso há menos de 1 mês"*
+### 🟡 [Nível 2: Intermediário](./nivel-2-intermediario/) (2-6 meses)
+**Meta**: Otimizar e organizar
+- Configurações por tipo de conteúdo
+- Análise de progresso com relatórios
+- Objetivo: Sistema eficiente e organizado
 
-- ✅ 50 cards criados
-- ✅ 1 deck organizado
-- ✅ 15 min/dia de revisão
-- 📖 [Guia Completo](docs/02-niveis-usuario/iniciante.md)
+### 🔴 [Nível 3: Avançado](./nivel-3-avancado/) (6+ meses)
+**Meta**: Dominar completamente
+- Análise profunda e automação
+- Configurações expert personalizadas
+- Objetivo: Sistema otimizado ao máximo
 
-### 🟡 **Intermediário** (1-6 meses)
-*"Já uso Anki mas quero organizar melhor"*
+## 🤖 Fluxo de Estudo com Claude
 
-- ✅ 500+ cards ativos
-- ✅ Sistema de tags funcionando
-- ✅ 30 min/dia otimizados
-- 📖 [Guia Completo](docs/02-niveis-usuario/intermediario.md)
+```mermaid
+graph LR
+    A[📚 Assista Aula] --> B[📝 Faça Anotações]
+    B --> C[🤖 Claude Gera Cards]
+    C --> D[📥 Importe no Anki]
+    D --> E[🎯 Estude Diariamente]
+    E --> F[📊 Extraia Relatório]
+    F --> G[🔍 Claude Analisa]
+    G --> H[⚙️ Ajuste Sistema]
+    H --> A
+```
 
-### 🔴 **Avançado** (6+ meses)
-*"Quero extrair o máximo do Anki"*
+## 📁 Estrutura do Repositório
 
-- ✅ 2000+ cards no sistema
-- ✅ Automação com add-ons
-- ✅ Análise de dados detalhada
-- 📖 [Guia Completo](docs/02-niveis-usuario/avancado.md)
+```
+anki-master-guide/
+├── 📗 nivel-1-iniciante/     # Comece aqui
+├── 📙 nivel-2-intermediario/  # Evolua quando dominar o básico
+├── 📕 nivel-3-avancado/       # Domine completamente
+├── 🤖 prompts/                # Prompts para Claude
+└── 📊 relatorios/             # Como extrair e analisar
+```
 
-## 📚 Documentação Completa
+## 🚀 Como Começar
 
-### 🏁 Começando
-- [Instalação em 5 minutos](docs/01-inicio-rapido/instalacao.md)
-- [Configuração inicial](docs/01-inicio-rapido/primeira-config.md)
+1. **Iniciantes**: Vá direto para [Nível 1](./nivel-1-iniciante/)
+2. **Já usa Anki**: Avalie seu nível e comece do apropriado
+3. **Quer só os prompts**: Veja a pasta [prompts](./prompts/)
 
-### 🎴 Criação de Cards
-- [5 Regras de Ouro](docs/03-criacao-cards/regras-basicas.md)
-- [20+ Exemplos Práticos](docs/03-criacao-cards/exemplos.md)
+## ⚡ Início Rápido (5 minutos)
 
-### 🗂️ Organização
-- [Estrutura de Decks](docs/04-organizacao/estrutura-decks.md)
-- [Sistema de Tags](docs/04-organizacao/tags-eficientes.md)
-
-### ⚡ Otimização
-- [Configurações Avançadas](docs/05-otimizacao/configuracoes.md)
-- [Relatórios e Análises](docs/05-otimizacao/relatorios.md)
-
-### 🛠️ Recursos
-- [Templates Prontos](docs/06-recursos/templates.md)
-- [Prompts para Claude](docs/06-recursos/prompts-claude.md)
-
-## 💻 Exemplos Práticos
-
-Todos os exemplos usam **programação front-end** para facilitar o aprendizado:
-
-- 🎴 [Cards de Exemplo](exemplos/cards/)
-- 📦 [Decks Prontos](exemplos/decks/)
-- ⚙️ [Configurações](exemplos/configs/)
+1. Baixe o [Anki Desktop](https://apps.ankiweb.net/)
+2. Configure em português (Ferramentas > Preferências > Idioma)
+3. Vá para [Nível 1](./nivel-1-iniciante/) e siga o guia
+4. Use o [prompt de criação](./prompts/criacao-cards.md) com Claude
 
 ## 🎯 Resultados Esperados
 
-### Após 1 Semana
-- [ ] Anki instalado e configurado
-- [ ] 10 cards criados seguindo as regras básicas
-- [ ] Primeira sessão de revisão concluída
+- **Mês 1**: Hábito diário estabelecido
+- **Mês 3**: Sistema organizado e eficiente
+- **Mês 6**: Domínio completo da ferramenta
+- **Mês 12**: Milhares de cards dominados
 
-### Após 1 Mês
-- [ ] 50-100 cards no sistema
-- [ ] Rotina de 15 min/dia estabelecida
-- [ ] Sistema básico de organização funcionando
+## 💡 Dica Principal
 
-### Após 3 Meses
-- [ ] 300+ cards ativos
-- [ ] Sistema de tags implementado
-- [ ] Primeiro relatório de progresso analisado
-
-### Após 6 Meses
-- [ ] 1000+ cards no sistema
-- [ ] Add-ons essenciais instalados
-- [ ] Fluxo otimizado e automatizado
-
-## 🤝 Como Contribuir
-
-1. 🍴 Faça um fork do projeto
-2. 🌟 Crie uma branch para sua feature
-3. 📝 Documente bem suas mudanças
-4. 🚀 Abra um Pull Request
-
-## 📞 Suporte
-
-- 💬 [Discussions](../../discussions) - Para dúvidas gerais
-- 🐛 [Issues](../../issues) - Para reportar bugs
-- 📧 Email: [seu-email@exemplo.com]
-
-## ⭐ Star o Projeto
-
-Se este guia está te ajudando, deixe uma ⭐ para apoiar o projeto!
+> "A consistência supera a perfeição. Melhor 10 cards por dia todos os dias do que 100 cards uma vez por semana."
 
 ---
 
-**📝 Nota**: Este guia está em constante atualização. Sugestões são sempre bem-vindas!
-
-*Última atualização: Agosto 2025*
+**Pronto para começar?** → [Vá para o Nível 1](./nivel-1-iniciante/) 🚀
