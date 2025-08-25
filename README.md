@@ -1,4 +1,4 @@
-# Guia Completo: Anki + FSRS para Engenharia de Software no Linux
+# Guia Completo: Anki + FSRS para Estudante de Universitário
 
 > **Para iniciantes absolutos** 🎯  
 > Sistema de revisão inteligente que evolui com você: Iniciante → Intermediário → Avançado
